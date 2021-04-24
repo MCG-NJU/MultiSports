@@ -38,13 +38,53 @@
 						<a href="http://mcg.nju.edu.cn/member.html">MCG Group @ Nanjing University</a></p>
 					</header>
 					<div class="box">
+						<header>
 						<h3>Abstract</h3>
+						</header>
 						<p style="text-align:justify; text-justify:inter-ideograph;">Spatio-temporal action localization is an important and challenging problem in video understanding. The existing action detection benchmarks are limited in aspects of small numbers of instances in a trimmed video or low-level atomic actions. This paper aims to present a new multi-person dataset of spatio-temporal localized sports actions, coined as <i><b>MultiSports</b></i>. We first analyze the important ingredients of constructing a realistic and challenging dataset for spatio-temporal action localization by proposing three criteria: (1) motion dependent identification, (2) with well-defined boundaries, (3) high-level classes with relative complexity. Based on these guidelines, we build the dataset of MultiSports v1.0 by selecting 4 sports classes, collecting around 3200 video clips, and annotating around 37790 action instances with 907k bounding boxes. Our datasets are characterized with important properties of high diversity, detailed annotation, and high quality. Our MultiSports, with its realistic setting and dense annotations, exposes the intrinsic challenge of action localization. To benchmark this, we adapt several representative methods to our dataset and give an in-depth analysis on the difficulty of action localization in our dataset. We hope our MultiSports can serve as a standard benchmark for spatio-temporal action localization in the future.</p>
 						<header>
 							<h3>Demo Video</h3>
 							<p>WILL BE UPDATED LATER</p>
 						</header>
 						<p align="center"><iframe width="600" height="320" src="https://www.youtube.com/embed/Hkc0ji-b4xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+						<header>
+						<h3>Hierarchy of Action Category</h3>
+						</header>
+						<p align="center"><img src="images/ms_hier.png" alt="" width="640" /></p>
+						<p style="text-align:justify; text-justify:inter-ideograph;">
+						The action vocabulary hierarchy and annotator interface of the <i>MultiSports</i> dataset. Our <i>MultiSports</i> has a two-level hierarchy of action vocabularies, where the actions of each sport are fine-grained.
+						</p>
+						<header>
+						<h3>Examples</h3>
+						<p>TO BE ADDED</p>
+						</header>
+						<header>
+						<h3>Experiment Results</h3>
+						</header>
+						<header>
+							<h4>(1) Comparison of SOTA methods</h4>
+						</header>
+						<span class="image fit"><img src="images/ms_sota.png" alt="" /></span>
+						<header>
+							<h4>(2) Comparison between SlowFast and SlowOnly</h4>
+						</header>
+						<span class="image fit"><img src="images/ms_slowonly_slowfast_AP.png" alt=""/></span>
+						<header>
+							<h4>(3) Error Analysis</h4>
+						</header>
+						<p align="center"><img src="images/ms_error_analysis.png" alt="" width="600" /></p>
+						<header>
+							<h4>(4) Results of MOC with different tube length (<i>K</i>)</h4>
+						</header>
+						<p align="center"><img src="images/ms_moc_k.png" alt="" width="450" /></p>
+						<header>
+							<h4>(5) Comparison of SlowFast performance on trimmed v.s. untrimmed data</h4>
+						</header>
+						<p align="center"><img src="images/ms_trimmed_untrimmed.png" alt="" width="400" /></p>
+						<header>
+							<h3>Download</h3>
+							<p>WILL BE UPDATED LATER</p>
+						</header>
 					</div>
 				</section>
 
