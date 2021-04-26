@@ -59,16 +59,38 @@
 						The action vocabulary hierarchy and annotator interface of the <i>MultiSports</i> dataset. Our <i>MultiSports</i> has a two-level hierarchy of action vocabularies, where the actions of each sport are fine-grained.
 						</p>
 						<header>
+						<h3>Dataset Statitics</h3>
+						</header>
+						<p style="text-align:justify; text-justify:inter-ideograph;">
+						Our <i>MultiSports</i> contains 66 fine-grained action categories from four different sports, selected from 247 competition records. The records are manually cut into 800 clips per sport to keep the balance of data size between sports, where we discard intervals with only background scenes, such as award, and select the highlights of competitions as video clips for action localization.
+						</p>
+						<ol>
+							<li><p style="text-align:justify; text-justify:inter-ideograph;">
+								Overall comparison of statistics between existing action localization datasets and our <i>MultiSports</i> v1.0. (* only train and val sets' ground-truths are available, † number of person tracklets, each of which has one or more action labels, ‡ 1fps action annotations have no clear action boundaries)
+								<span class="image fit"><img src="images/ms_comp.jpg" alt="comparison with other dataset"/></span>
+							</p></li>
+							<li><p style="text-align:justify; text-justify:inter-ideograph;">
+								Statistics of each action class's data size in <i>MultiSports</i> sorted by descending order with 4 colors indicating 4 different sports. For actions in the different sports sharing the same name, we add the name of sports after them. The natural long-tailed distribution of action categories raises new challenges for action localization models.
+								<span class="image fit"><img src="images/ms_num_inst.png" alt="number of instances"/></span>
+							</p></li>
+							<li><p style="text-align:justify; text-justify:inter-ideograph;">
+								Statistics of action instance duration in <i>MultiSports</i>, where the x-axis is the number of frames and we count all instances longer than 95 frames in the last bar. Our action instances have a large variance in duration, resulting in challenges in modeling varying temporal structures.
+								<span class="image fit"><img src="images/ms_interval.png" alt="action duration"/></span>
+							</p></li>
+						</ol>
+						<header>
 						<h3>Experiment Results</h3>
 						</header>
-						<header>
-							<h4>(1) Comparison of SOTA methods</h4>
-						</header>
-						<span class="image fit"><img src="images/ms_sota.png" alt="" /></span>
-						<header>
-							<h4>(2) Comparison between SlowFast and SlowOnly</h4>
-						</header>
-						<span class="image fit"><img src="images/ms_slowonly_slowfast_AP.png" alt=""/></span>
+						<ol>
+							<li>
+							Comparison of SOTA methods
+							<span class="image fit"><img src="images/ms_sota.png" alt="Comparison of SOTA methods" /></span>
+							</li>
+							<li>
+							Comparison between SlowFast and SlowOnly
+							<span class="image fit"><img src="images/ms_slowonly_slowfast_AP.png" alt="Comparison between SlowFast and SlowOnly" /></span>
+							</li>
+						</ol>
 					</div>
 				</section>
 
