@@ -7,6 +7,8 @@ Homepage (Download): [DeeperAction/MultiSports](https://deeperaction.github.io/m
 
 **evaluate.py** is our evaluation code, which is modified from ACT(https://github.com/vkalogeiton/caffe/blob/act-detector/act-detector-scripts/ACT.py).
 
+**VideomAP_error.py** is our video mAP error analysis code, which is based on the frame mAP error analysis code of ACT(https://github.com/vkalogeiton/caffe/blob/act-detector/act-detector-scripts/ACT.py).
+
 **submissions.zip** is our example submission file on 50% test set.
 
 If you find our code or paper useful, please cite as
