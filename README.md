@@ -25,7 +25,7 @@ video_name: str
 
 frame_number: int (starts from 1)
 
-boxes: a numpy array with n rows and 5 columns, <x1> <y1> <x2> <y2> <score>. x1, x2, y1, y2 are normalized with respect to frame size, which are between 0.0-1.0. We only save the box with score higher than 0.05.
+boxes: a numpy array with n rows and 5 columns, \<x1\> \<y1\> \<x2\> \<y2\> \<score\>. x1, x2, y1, y2 are normalized with respect to frame size, which are between 0.0-1.0. We only save the box with score higher than 0.05.
 
 ## Evaluation Tools
 
