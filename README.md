@@ -8,6 +8,7 @@ Homepage: [DeeperAction/MultiSports](https://deeperaction.github.io/multisports/
 ## Download Data and Annotations
 
 Please register on our [competition page](https://competitions.codalab.org/competitions/32066), and download data and annotations in the Participate/Data part.
+
 Dataset License: [CC BY_NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Download Person Boxes
