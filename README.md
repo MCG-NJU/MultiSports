@@ -49,7 +49,7 @@ python3 evaluate_multisports.py videoAP_error multisports_GT.pkl video_detection
 
 **video_detections.pkl** is a dictionary that associates from each index of label (start from 0), a list of tubes. A tube is a tuple (tube_v, tube_score, tube_boxes). tube_v is the video name, such as 'aerobic_gymnastics/v_crsi07chcV8_c004'. tube_score is the score of this tube, which affects the video mAP result. tube_boxes is a numpy array with tube-length rows and 6 columns, every row is [frame number, x1, y1, x2, y2, box_score]. frame number starts from 1. box_score is the single frame's confidence and does not affect the video mAP result. 
 
-We provide examples of frame_detections.pkl and video_detections.pkl of slowonly in this repository, whose evaluation results with different PR area calculation are shown below.
+We provide examples of frame_detections.pkl and video_detections.pkl of slowonly in [examples](https://github.com/MCG-NJU/MultiSports/tree/main/examples), whose evaluation results with different PR area calculation are shown below.
 
 |  | frameAP@0.5 | videoAP@0.2 | videoAP@0.5 |
 |---|---|---|:--|
