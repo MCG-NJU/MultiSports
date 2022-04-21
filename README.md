@@ -3,7 +3,7 @@ We will release our baseline codes and models soon.
 
 Paper: [MultiSports: A Multi-Person Video Dataset of Spatio-Temporally Localized Sports Actions](https://arxiv.org/pdf/2105.07404.pdf)
 
-Homepage: [DeeperAction/MultiSports](https://deeperaction.github.io/multisports/)
+Homepage: [DeeperAction/MultiSports](https://deeperaction.github.io/datasets/multisports.html)
 
 ## Download Data and Annotations
 
