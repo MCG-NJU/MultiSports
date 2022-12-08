@@ -65,10 +65,12 @@ We provide examples of frame_detections.pkl and video_detections.pkl of slowonly
 
 If you find our code or paper useful, please cite as
 ```
-@article{li2021multisports,
-  title={MultiSports: A Multi-Person Video Dataset of Spatio-Temporally Localized Sports Actions},
-  author={Li, Yixuan and Chen, Lei and He, Runyu and Wang, Zhenzhi and Wu, Gangshan and Wang, Limin},
-  journal={arXiv preprint arXiv:2105.07404},
-  year={2021}
+@InProceedings{Li_2021_ICCV,
+    author    = {Li, Yixuan and Chen, Lei and He, Runyu and Wang, Zhenzhi and Wu, Gangshan and Wang, Limin},
+    title     = {MultiSports: A Multi-Person Video Dataset of Spatio-Temporally Localized Sports Actions},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {13536-13545}
 }
 ```
