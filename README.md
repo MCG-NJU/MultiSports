@@ -7,7 +7,9 @@ Homepage: [DeeperAction/MultiSports](https://deeperaction.github.io/datasets/mul
 
 ## Download Data and Annotations
 
-Please register on our [competition page](https://codalab.lisn.upsaclay.fr/competitions/3736), and download data and annotations in the Participate/Data part.
+Our data and annotations can now be downloaded from [Hugging Face](https://huggingface.co/datasets/MCG-NJU/MultiSports).
+
+You can still register on our [competition page](https://codalab.lisn.upsaclay.fr/competitions/3736), and download data and annotations in the Participate/Data part. But please note that it may take a few moments before we receive the email and accept your request.
 
 MultiSports Dataset License: [CC BY_NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
