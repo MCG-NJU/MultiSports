@@ -1,5 +1,4 @@
 # README
-We will release our baseline codes and models soon.
 
 Paper: [MultiSports: A Multi-Person Video Dataset of Spatio-Temporally Localized Sports Actions](https://arxiv.org/pdf/2105.07404.pdf)
 
@@ -30,6 +29,10 @@ video_name: str
 frame_number: int (starts from 1)
 ```
 boxes: a numpy array with n rows and 5 columns, \<x1\> \<y1\> \<x2\> \<y2\> \<score\>. x1, x2, y1, y2 are normalized with respect to frame size, which are between 0.0-1.0. We only save the box with score higher than 0.05.
+
+## SlowFast Det.
+
+We run the SlowFast Det. from [mmaction2](https://github.com/open-mmlab/mmaction2/tree/main) and change the [mmaction/datasets/ava_dataset.py](https://github.com/open-mmlab/mmaction2/blob/main/mmaction/datasets/ava_dataset.py) into [multisports_dataset.py](https://github.com/MCG-NJU/MultiSports/blob/main/multisports_dataset.py) for our MultiSports Dataset. 
 
 ## Evaluation Tools
 
